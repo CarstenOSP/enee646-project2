@@ -1,2 +1,2 @@
-# enee646-project2
-Tomasulo's Algorithm RISC-V Simulator
+# ENEE646, Project 2
+This project is a cycle-accurate, RISC-V, Tomasulo's Algorithm simulator. Description of implementation is including in pr2.pdf.
