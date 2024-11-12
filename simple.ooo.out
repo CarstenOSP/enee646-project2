@@ -1,0 +1,724 @@
+
+
+*** CYCLE 0
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000000	R2=0x00000000	R3=0x00000000
+	R4=0x00000000	R5=0x00000000	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x00000000
+ifid:
+	instr	add x0 x0 x0
+IQ:
+CQ:
+INT fu:
+MEM fu:
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+floating writeback ports:
+branch PC update:
+ROB:
+
+
+
+*** CYCLE 1
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000000	R2=0x00000000	R3=0x00000000
+	R4=0x00000000	R5=0x00000000	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x00000004
+ifid:
+	instr	lw x1 (28)x0
+IQ:
+CQ:
+INT fu:
+MEM fu:
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+floating writeback ports:
+branch PC update:
+ROB:
+
+
+
+*** CYCLE 2
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000000	R2=0x00000000	R3=0x00000000
+	R4=0x00000000	R5=0x00000000	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x00000008
+ifid:
+	instr	lw x2 (32)x0
+IQ:
+		0  lw x1 (28)x0  READY (0)  READY (28)  NOT ISSUED
+CQ:
+		0  lw x1 (28)x0  TAG=64  READY   NOT ISSUED
+INT fu:
+MEM fu:
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+floating writeback ports:
+branch PC update:
+ROB:
+		0  lw x1 (28)x0  NOT COMPLETED
+
+
+
+*** CYCLE 3
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000000	R2=0x00000000	R3=0x00000000
+	R4=0x00000000	R5=0x00000000	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x0000000C
+ifid:
+	instr	lw x3 (36)x0
+IQ:
+		1  lw x2 (32)x0  READY (0)  READY (32)  NOT ISSUED
+CQ:
+		0  lw x1 (28)x0  TAG=64  READY   NOT ISSUED
+		1  lw x2 (32)x0  TAG=65  READY   NOT ISSUED
+INT fu:
+		name 'INT', stage 0 (from end), cycle 0/1, TAG = 64
+MEM fu:
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+floating writeback ports:
+branch PC update:
+ROB:
+		0  lw x1 (28)x0  NOT COMPLETED
+		1  lw x2 (32)x0  NOT COMPLETED
+
+
+
+*** CYCLE 4
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000000	R2=0x00000000	R3=0x00000000
+	R4=0x00000000	R5=0x00000000	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x00000010
+ifid:
+	instr	add x4 x1 x2
+IQ:
+		2  lw x3 (36)x0  READY (0)  READY (36)  NOT ISSUED
+CQ:
+		0  lw x1 (28)x0  TAG=64  READY   NOT ISSUED
+		1  lw x2 (32)x0  TAG=65  READY   NOT ISSUED
+		2  lw x3 (36)x0  TAG=66  READY   NOT ISSUED
+INT fu:
+		name 'INT', stage 0 (from end), cycle 0/1, TAG = 65
+MEM fu:
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+		TAG = 64, result = 0x0000001C
+floating writeback ports:
+branch PC update:
+ROB:
+		0  lw x1 (28)x0  NOT COMPLETED
+		1  lw x2 (32)x0  NOT COMPLETED
+		2  lw x3 (36)x0  NOT COMPLETED
+
+
+
+*** CYCLE 5
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000000	R2=0x00000000	R3=0x00000000
+	R4=0x00000000	R5=0x00000000	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x00000014
+ifid:
+	instr	sub x5 x4 x3
+IQ:
+		3  add x4 x1 x2  TAG= 0  TAG= 1  NOT ISSUED
+CQ:
+		1  lw x2 (32)x0  TAG=65  READY   NOT ISSUED
+		2  lw x3 (36)x0  TAG=66  READY   NOT ISSUED
+INT fu:
+		name 'INT', stage 0 (from end), cycle 0/1, TAG = 66
+MEM fu:
+		name 'MEM', stage 0 (from end), cycle 0/1, TAG = 0
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+		TAG = 65, result = 0x00000020
+floating writeback ports:
+branch PC update:
+ROB:
+		0  lw x1 (28)x0  NOT COMPLETED
+		1  lw x2 (32)x0  NOT COMPLETED
+		2  lw x3 (36)x0  NOT COMPLETED
+		3  add x4 x1 x2  NOT COMPLETED
+
+
+
+*** CYCLE 6
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000000	R2=0x00000000	R3=0x00000000
+	R4=0x00000000	R5=0x00000000	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x00000018
+ifid:
+	instr	sw x5 (40)x0
+IQ:
+		3  add x4 x1 x2  TAG= 0  TAG= 1  NOT ISSUED
+		4  sub x5 x4 x3  TAG= 3  TAG= 2  NOT ISSUED
+CQ:
+		2  lw x3 (36)x0  TAG=66  READY   NOT ISSUED
+INT fu:
+MEM fu:
+		name 'MEM', stage 0 (from end), cycle 0/1, TAG = 1
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+		TAG = 66, result = 0x00000024
+		TAG = 0, result = 0x00000032
+floating writeback ports:
+branch PC update:
+ROB:
+		0  lw x1 (28)x0  NOT COMPLETED
+		1  lw x2 (32)x0  NOT COMPLETED
+		2  lw x3 (36)x0  NOT COMPLETED
+		3  add x4 x1 x2  NOT COMPLETED
+		4  sub x5 x4 x3  NOT COMPLETED
+
+
+
+*** CYCLE 7
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000000	R2=0x00000000	R3=0x00000000
+	R4=0x00000000	R5=0x00000000	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x0000001C
+ifid:
+	instr	halt
+IQ:
+		3  add x4 x1 x2  READY (50)  TAG= 1  NOT ISSUED
+		4  sub x5 x4 x3  TAG= 3  TAG= 2  NOT ISSUED
+		5  sw x5 (40)x0  READY (0)  READY (40)  NOT ISSUED
+CQ:
+		5  sw x5 (40)x0  TAG=69  TAG= 4  NOT ISSUED
+INT fu:
+MEM fu:
+		name 'MEM', stage 0 (from end), cycle 0/1, TAG = 2
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+		TAG = 1, result = 0x0000001E
+floating writeback ports:
+branch PC update:
+ROB:
+		0  lw x1 (28)x0  COMPLETED
+		1  lw x2 (32)x0  NOT COMPLETED
+		2  lw x3 (36)x0  NOT COMPLETED
+		3  add x4 x1 x2  NOT COMPLETED
+		4  sub x5 x4 x3  NOT COMPLETED
+		5  sw x5 (40)x0  NOT COMPLETED
+
+
+
+*** CYCLE 8
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000032	R2=0x00000000	R3=0x00000000
+	R4=0x00000000	R5=0x00000000	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x00000020
+ifid:
+	instr	0x00000032
+IQ:
+		4  sub x5 x4 x3  TAG= 3  TAG= 2  NOT ISSUED
+		5  sw x5 (40)x0  READY (0)  READY (40)  NOT ISSUED
+CQ:
+		5  sw x5 (40)x0  TAG=69  TAG= 4  NOT ISSUED
+INT fu:
+		name 'INT', stage 0 (from end), cycle 0/1, TAG = 3
+MEM fu:
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+		TAG = 2, result = 0x00000014
+floating writeback ports:
+branch PC update:
+ROB:
+		1  lw x2 (32)x0  COMPLETED
+		2  lw x3 (36)x0  NOT COMPLETED
+		3  add x4 x1 x2  NOT COMPLETED
+		4  sub x5 x4 x3  NOT COMPLETED
+		5  sw x5 (40)x0  NOT COMPLETED
+		6  halt  COMPLETED
+
+
+
+*** CYCLE 9
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000032	R2=0x0000001E	R3=0x00000000
+	R4=0x00000000	R5=0x00000000	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x00000020
+ifid:
+	instr	0x00000032
+IQ:
+		4  sub x5 x4 x3  TAG= 3  READY (20)  NOT ISSUED
+		5  sw x5 (40)x0  READY (0)  READY (40)  ISSUED
+CQ:
+		5  sw x5 (40)x0  TAG=69  TAG= 4  NOT ISSUED
+INT fu:
+		name 'INT', stage 0 (from end), cycle 0/1, TAG = 69
+MEM fu:
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+		TAG = 3, result = 0x00000050
+floating writeback ports:
+branch PC update:
+ROB:
+		2  lw x3 (36)x0  COMPLETED
+		3  add x4 x1 x2  NOT COMPLETED
+		4  sub x5 x4 x3  NOT COMPLETED
+		5  sw x5 (40)x0  NOT COMPLETED
+		6  halt  COMPLETED
+
+
+
+*** CYCLE 10
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000032	R2=0x0000001E	R3=0x00000014
+	R4=0x00000000	R5=0x00000000	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x00000020
+ifid:
+	instr	0x00000032
+IQ:
+CQ:
+		5  sw x5 (40)x0  TAG=69  TAG= 4  NOT ISSUED
+INT fu:
+		name 'INT', stage 0 (from end), cycle 0/1, TAG = 4
+MEM fu:
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+		TAG = 69, result = 0x00000028
+floating writeback ports:
+branch PC update:
+ROB:
+		3  add x4 x1 x2  COMPLETED
+		4  sub x5 x4 x3  NOT COMPLETED
+		5  sw x5 (40)x0  NOT COMPLETED
+		6  halt  COMPLETED
+
+
+
+*** CYCLE 11
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000032	R2=0x0000001E	R3=0x00000014
+	R4=0x00000050	R5=0x00000000	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x00000020
+ifid:
+	instr	0x00000032
+IQ:
+CQ:
+		5  sw x5 (40)x0  READY   TAG= 4  NOT ISSUED
+INT fu:
+MEM fu:
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+		TAG = 4, result = 0x0000003C
+floating writeback ports:
+branch PC update:
+ROB:
+		4  sub x5 x4 x3  NOT COMPLETED
+		5  sw x5 (40)x0  NOT COMPLETED
+		6  halt  COMPLETED
+
+
+
+*** CYCLE 12
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000032	R2=0x0000001E	R3=0x00000014
+	R4=0x00000050	R5=0x00000000	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x00000020
+ifid:
+	instr	0x00000032
+IQ:
+CQ:
+INT fu:
+MEM fu:
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+floating writeback ports:
+branch PC update:
+ROB:
+		4  sub x5 x4 x3  COMPLETED
+		5  sw x5 (40)x0  COMPLETED
+		6  halt  COMPLETED
+
+
+
+*** CYCLE 13
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 00 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000032	R2=0x0000001E	R3=0x00000014
+	R4=0x00000050	R5=0x0000003C	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x00000020
+ifid:
+	instr	0x00000032
+IQ:
+CQ:
+INT fu:
+MEM fu:
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+floating writeback ports:
+branch PC update:
+ROB:
+		5  sw x5 (40)x0  COMPLETED
+		6  halt  COMPLETED
+
+
+
+*** CYCLE 14
+Memory
+	Address		Data
+	0x00000000	87 00 C0 01 07 01 00 02 87 01 40 02 00 82 20 00
+	0x00000010	80 72 32 40 08 04 50 02 3F 00 00 00 32 00 00 00
+	0x00000020	1E 00 00 00 14 00 00 00 3C 00 00 00
+Registers (integer):
+	R0=0x00000000	R1=0x00000032	R2=0x0000001E	R3=0x00000014
+	R4=0x00000050	R5=0x0000003C	R6=0x00000000	R7=0x00000000
+	R8=0x00000000	R9=0x00000000	R10=0x00000000	R11=0x00000000
+	R12=0x00000000	R13=0x00000000	R14=0x00000000	R15=0x00000000
+	R16=0x00000000	R17=0x00000000	R18=0x00000000	R19=0x00000000
+	R20=0x00000000	R21=0x00000000	R22=0x00000000	R23=0x00000000
+	R24=0x00000000	R25=0x00000000	R26=0x00000000	R27=0x00000000
+	R28=0x00000000	R29=0x00000000	R30=0x00000000	R31=0x00000000
+Registers (floating point):
+	F0=0         	F1=0         	F2=0         	F3=0         
+	F4=0         	F5=0         	F6=0         	F7=0         
+	F8=0         	F9=0         	F10=0         	F11=0         
+	F12=0         	F13=0         	F14=0         	F15=0         
+	F16=0         	F17=0         	F18=0         	F19=0         
+	F20=0         	F21=0         	F22=0         	F23=0         
+	F24=0         	F25=0         	F26=0         	F27=0         
+	F28=0         	F29=0         	F30=0         	F31=0         
+pc:
+	pc	0x00000020
+ifid:
+	instr	0x00000032
+IQ:
+CQ:
+INT fu:
+MEM fu:
+		name 'MEM', stage 0 (from end), cycle 0/1, TAG = 5
+ADD fu:
+MULT fu:
+DIV fu:
+integer writeback ports:
+floating writeback ports:
+branch PC update:
+ROB:
+		6  halt  COMPLETED
+
+SIMULATION COMPLETE!
+COMMITTED 7 INSTRUCTIONS IN 14 CYCLES
+CPI:  2.00
